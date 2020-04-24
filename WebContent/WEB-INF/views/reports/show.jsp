@@ -7,6 +7,11 @@
             <c:when test="${report != null }">
                 <h2>日報　詳細ページ</h2>
 
+                <div id="goodbadcounts">
+
+                    <button type="submit">いいね</button>　　　　<button>よくないね</button>
+
+                </div>
                 <table>
                     <tbody>
                         <tr>
